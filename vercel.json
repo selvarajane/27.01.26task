@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd react-basics && npm run build",
+  "outputDirectory": "react-basics/dist",
+  "installCommand": "cd react-basics && npm install",
+  "framework": null,
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
